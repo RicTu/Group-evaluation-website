@@ -30,13 +30,13 @@ python main.py
 
 ## How to use it
 * First time access the webpage, sign up an account
-<img src="figures/home.png" height="300">
+<img src="figures/home.PNG" height="300">
 
 * Log in with student account
-<img src="Figure/student.png" height="300">
+<img src="Figure/student.PNG" height="300">
 
 * Log in with admin account
-<img src="Figure/admin.png" height="300">
+<img src="Figure/admin.PNG" height="300">
 (The group number with 9999 will redirect to the admin page)
 
 * The score will be stored at student_com.csv
