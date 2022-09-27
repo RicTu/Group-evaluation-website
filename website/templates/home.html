@@ -1,0 +1,49 @@
+{% extends "base.html" %} {% block title %}Home{% endblock %} {% block content
+%}
+<h1 align="center">Group: {{user.group}}</h1>
+<!-- <ul class="list-group list-group-flush" id="StudentID">
+    {{ user.StudentID }}
+</ul> -->
+<h5 align="center">
+  This is the website for contribution survey
+</h5>
+
+<h5 align="center">
+  If your teammate or group is wrong, please contact TA 
+</h5>
+
+
+<form method="POST">
+  <table align="center" border="5" width="800" height="300">
+    <tr>
+      <td align="center" valign="center" >Member</td>
+      {% for teammate in team_all_member %}
+      <td align="center" valign="center" >
+        {{ teammate }}
+      </td>
+      {%endfor%}
+    </tr>
+
+    <tr>
+      <td align="center" valign="center" >Contribution</td>
+      {% for teammate in team_all_member %}
+      <td align="center" valign="center" >
+        <select name={{teammate}} id={{teammate}}>
+        <option>Select contribution</option>
+        <option>No contribution	</option>
+        <option>Minor contribution	</option>
+        <option>Contributed actively	</option>
+        <option>Did all the work		</option>
+        <option>Drop		</option>
+      </select></td>
+      {%endfor%}
+    </tr>
+  </table>
+
+  <div align="center">
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </div>
+</form>
+
+
+{% endblock %}

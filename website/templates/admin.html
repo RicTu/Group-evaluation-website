@@ -1,0 +1,39 @@
+{% extends "base.html" %} {% block title %}Admin{% endblock %} {% block content
+    %}
+<h1 align="center">Admin</h1>
+<!-- <a href="file://///D:\Repository\ric_project\profskills_website\tree.jpeg">Download</a> -->
+<a href="file:///// D:\Repository\ric_project\profskills_website\tree.jpeg" download rel="noopener noreferrer" target="_blank">
+    Download contribution file(not available now)
+ </a>
+
+
+<form method="POST">
+    <h3>Reset password</h3>
+      <label for="ResetID">StudentID(Reset)</label>
+      <input
+        type="text"
+        class="form-control"
+        id="ResetID"
+        name="ResetID"
+        placeholder="Enter StudentID"
+      />
+    <br />
+    <button type="submit" name="submit_button" value="delet_user" class="btn btn-primary">Remove account</button>
+
+    <button type="submit" name="submit_button" value="calculate_contribution_score" class="btn btn-outline-secondary">calculate contribution score</button>
+</form>
+
+<!-- <form method="POST">
+  <h3>test1</h3>
+  <br />
+  <button type="submit" name="submit_button" value="test1" class="btn btn-primary">Submit</button>
+</form>
+
+<form method="POST">
+  <h3>test2</h3>
+  <br />
+  <button type="submit" name="submit_button" value="test2">Submit</button>
+</form> -->
+{% endblock %}
+
+    
