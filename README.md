@@ -12,8 +12,22 @@ Therefore, we want to design a system that is easy for students to do the evalua
 This webpage is built with the flask.
 Using the JS for the user interface and the python code for the statistic.
 
-## How this webpage work
-* Put your student list at
+## Lunch the webpage
+* install the required package
+```
+pip install -r requirements.txt
+```
+
+* Put student list at
 ```
 website/student_list.csv
 ```
+
+* Activate app
+```
+python main.py
+```
+
+## How to use it
+* First time access the webpage, sign up an account
+<img=figures/home.png>
