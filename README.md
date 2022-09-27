@@ -33,10 +33,10 @@ python main.py
 <img src="figures/home.PNG" height="300">
 
 * Log in with student account
-<img src="Figure/student.PNG" height="300">
+<img src="figures/student.PNG" height="300">
 
 * Log in with admin account
-<img src="Figure/admin.PNG" height="300">
+<img src="figures/admin.PNG" height="300">
 (The group number with 9999 will redirect to the admin page)
 
 * The score will be stored at student_com.csv
