@@ -10,7 +10,7 @@ Therefore, we want to design a system that is easy for students to do the evalua
 
 ## Backbone of the webpage
 This webpage is built with the flask.
-Using the JS for the user interface and the python code for the statistic.
+Using the HRML and JS for the user interface and the python code for the statistic.
 
 ## Lunch the webpage
 * install the required package
