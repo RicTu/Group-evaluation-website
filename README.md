@@ -1,4 +1,4 @@
-# Group evaluation website application
+# Group evaluation website
 This repository contains a website that easy for students to evaluate the performance of themself and their team members.
 The webpage is designed for [Nordlinglab Profskills](https://www.nordlinglab.org/profskills/).
 
